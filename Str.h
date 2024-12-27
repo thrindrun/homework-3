@@ -1,5 +1,5 @@
-#ifndef STR.H
-#define STR.H
+#ifndef STR_H
+#define STR_H
 
 class Str {
     public:
