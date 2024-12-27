@@ -15,11 +15,12 @@ int main(){
     s1.print(); //cpp
     ++s1;
     s1.print(); //dqq
-    s1[0]='P'; //Pqq
-
+    s1[0]='P';
+    s1.print(); //Pqq
+    
     if (s1==s2)
         cout << "these two objects are the same" << endl;
-    else
+    else if (s1 != s2)
         cout << "these two objects are not the same" << endl;
     // these two objects are not the same
 
