@@ -16,10 +16,10 @@ class Str {
         void print() const;
         void reverse();
         void uppercase();
-        ~Str();
     private:
         int Size;
         char* str;
 };
 
 #endif
+
