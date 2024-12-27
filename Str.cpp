@@ -6,7 +6,7 @@ using namespace std;
 Str::Str() {
     Size = 1;
     str = new char[Size];
-    str[1] = {'\0'};
+    str[0] = '\0';
 }
 
 Str::Str(const char* arr) {
