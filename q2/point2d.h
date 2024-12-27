@@ -3,9 +3,9 @@ class point2D {
         double x;
         double y;
     public:
-        point2D(double a,double b);
-        void setX();
+        point2D(double ,double);
+        void setX(double);
         double getX();
-        void setY();
+        void setY(double);
         double getY();
 };
