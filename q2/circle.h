@@ -5,6 +5,7 @@ class Circle {
         Circle(const Point2D& src,const double r);
         void setRadius(const double r);
         void setCenter(const double x,const double y);
+        void setCenter(const Point2D& src);
         double getRadius() const;
         Point2D getCenter() const;
         void displayInfo() const;

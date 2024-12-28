@@ -17,6 +17,9 @@ void Circle::setRadius(const double r) {
 void Circle::setCenter(const double x,const double y) {
     center=Point2D(x,y);
 }
+void Circle::setCenter(const Point2D& src) {
+    center=src;
+}
 double Circle::getRadius() const {
     return radius;
 }
