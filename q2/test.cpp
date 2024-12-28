@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    // Test Point2D
+    // Point2D test
     Point2D point1(3,4); // a point at x=3 y=4
     Point2D point2(point1);
     
@@ -13,7 +13,7 @@ int main() {
     point2.setX(4); point2.setY(5);
     cout << point2.getX() << ", " << point2.getY() << endl; // 4,5
 
-    // Test Circle
+    // Circle test
     Circle circle1(1,2,3);
     Circle circle2(point1,5);
     
@@ -28,4 +28,5 @@ int main() {
     cout << circle1.getCenter() << ", " << circle1.getRadius() << endl; // (0,0) 5
     cout << circle2.getCenter() << ", " <<circle2.getRadius() << endl; // (4,5) 5
 
+    // EqTri test
 }
