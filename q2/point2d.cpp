@@ -19,3 +19,7 @@ double Point2D::getX() const {
 double Point2D::getY() const{
     return y;
 }
+ostream& operator<<(ostream& out, const Point2D& src) {
+    out << "(" << src.x << ", " << src.y << ")";
+    return out;
+}

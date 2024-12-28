@@ -25,7 +25,7 @@ int main() {
     circle1.displayInfo(); // center (0,0) radius 5
     circle2.displayInfo(); // center(4,5) radius 5
 
-    cout << circle1.getRadius() << endl;// 5
-    cout << circle2.getRadius() << endl; // 5
-    
+    cout << circle1.getCenter() << ", " << circle1.getRadius() << endl; // (0,0) 5
+    cout << circle2.getCenter() << ", " <<circle2.getRadius() << endl; // (4,5) 5
+
 }

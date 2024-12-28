@@ -1,4 +1,8 @@
+#include <iostream>
+
 class Point2D {
+
+        friend std::ostream& operator<<(std::ostream& out, const Point2D& src);
     public:
         Point2D(double src_x=0,double src_y=0);
         Point2D(const Point2D& src);

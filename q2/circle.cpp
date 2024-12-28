@@ -30,7 +30,7 @@ double Circle::area() const {
     return M_PI*radius*radius;
 }
 void Circle::displayInfo() const {
-    cout << "Center: (" << center.getX() << ", " << center.getY() << ")" << endl;
+    cout << "Center: (" << center.getX() << ", " << center.getY() << ") , ";
     cout << "Radius: " << radius << endl;
     cout << "Area: " << area() << endl;
 }
