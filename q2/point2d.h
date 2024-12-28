@@ -1,11 +1,12 @@
-class point2D {
+class Point2D {
+    public:
+        Point2D(double src_x=0,double src_y=0);
+        Point2D(const Point2D& src);
+        void setX(const double src_x);
+        void setY(const double src_y);
+        double getX() const;
+        double getY() const;
     private:
         double x;
         double y;
-    public:
-        point2D(double ,double);
-        void setX(double);
-        double getX();
-        void setY(double);
-        double getY();
 };
