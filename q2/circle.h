@@ -7,7 +7,7 @@ class Circle {
         void setCenter(const double x,const double y);
         double getRadius() const;
         Point2D getCenter() const;
-        void displayInfo();
+        void displayInfo() const;
         double area() const;
     private:
         Point2D center;

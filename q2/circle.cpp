@@ -26,7 +26,7 @@ Point2D Circle::getCenter() const {
 double Circle::area() const {
     return M_PI*radius*radius;
 }
-void Circle::displayInfo() {
+void Circle::displayInfo() const {
     cout << "Center: (" << center.getX() << ", " << center.getY() << ")" << endl;
     cout << "Radius: " << radius << endl;
     cout << "Area: " << area() << endl;
