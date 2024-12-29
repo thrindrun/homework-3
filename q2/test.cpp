@@ -39,4 +39,6 @@ int main() {
     triangle2.setCenter(1,2);
     triangle2.setRadius(3);
     triangle2.displayInfo(); // Side length 10.3923 area 46.765
+
+    return 0;
 }
