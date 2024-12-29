@@ -1,3 +1,6 @@
+#ifndef CIRCLE_H
+#define CIRCLE_H
+
 #include "point2d.h"
 class Circle {
     public:
@@ -14,3 +17,5 @@ class Circle {
         Point2D center;
         double radius;
 };
+
+#endif

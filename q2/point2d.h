@@ -1,3 +1,6 @@
+#ifndef POINT2D_H
+#define POINT2D_H
+
 #include <iostream>
 
 class Point2D {
@@ -14,3 +17,5 @@ class Point2D {
         double x;
         double y;
 };
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef EQTRI_H
+#define EQTRI_H
+
 #include "circle.h"
 
 class EqTri : public Circle {
@@ -7,3 +10,5 @@ class EqTri : public Circle {
         double area() const;
         void displayInfo() const;
 };
+
+#endif
