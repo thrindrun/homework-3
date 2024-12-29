@@ -5,14 +5,23 @@ using namespace std;
 
 Circle::Circle(const double x,const double y,const double r){
     center=Point2D(x,y);
-    radius=r;
+    if (r>0)
+        radius=r;
+    else
+        radius=1;
 }
 Circle::Circle(const Point2D& src,const double r) {
     center=src;
-    radius=r;
+    if (r>0)
+        radius=r;
+    else
+        radius=1;
 }
 void Circle::setRadius(const double r) {
-    radius=r;
+    if (r>0)
+        radius=r;
+    else
+        radius=1;
 }
 void Circle::setCenter(const double x,const double y) {
     center=Point2D(x,y);
@@ -31,6 +40,6 @@ double Circle::area() const {
 }
 void Circle::displayInfo() const {
     cout << "Center: (" << center.getX() << ", " << center.getY() << ") , ";
-    cout << "Radius: " << radius << endl;
+    cout << "Radius: " << radius << ", ";
     cout << "Area: " << area() << endl;
 }

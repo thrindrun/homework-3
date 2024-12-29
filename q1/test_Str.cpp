@@ -23,7 +23,6 @@ int main(){
     else if (s1 != s2)
         cout << "these two objects are not the same" << endl;
     // these two objects are not the same
-    cout << s1.getString() << endl;
     cout << s1.getSize() << endl; //4 (including the null)
     s2.reverse();
     s2.print(); //ppc
